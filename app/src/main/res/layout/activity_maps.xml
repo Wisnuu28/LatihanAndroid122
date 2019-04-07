@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          xmlns:map="http://schemas.android.com/apk/res-auto"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/map"
+          tools:context=".MapsActivity"
+          android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|bottom">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_fab"
+                map:fab_size="normal"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon2"
+                map:fab_size="normal"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon3"
+                map:fab_size="normal"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon4"
+                map:fab_size="normal"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</fragment>
